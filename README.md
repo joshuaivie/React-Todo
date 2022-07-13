@@ -1,57 +1,49 @@
+#React Todo List Application
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Book Store
-
-> The Book Store Application is a front end application build using React and Redux. In this project I explore the use of functional components, component lifecycle, event handling, lifting state and react hooks and redux for state management. The application allows users to display a list of books, add a book and remove a selected book.
-
-> I hope you enjoy this one!
-
-## Live Demo
-
-[Math Magicians App](https://joshuaivie.github.io/BookStore)
+> "React Todo List Application" is a website tha allows users to manage their to do list Items
 
 ## Built With
 
-- HTML
-- CSS
-- Javascript
-- React
-- Redux
-
-## Getting Started
+- Major Languages: JAVASCRIPT, HTML, CSS
+- Major Technologies: Git, Github, Webpack, React
 
 ### Prerequisites
 
-- Node
-- NPM ( Node Package Manager )
-- Git and Github Account
+- npm ( Node Package Manager )
+- git and Github Account
 
-### Setup
+### Install linters
 
-- Run git clone on this project at the desired directory:
-  ```
-  git clone https://github.com/joshuaivie/BookStore
-  ```
-  ```
-  cd MathMagicians
-  ```
-- Install dependencies
+- **Webhint** linter
 
-  ```
-  npm install
-  ```
+  `npm install --save-dev hint@6.x`
 
-- Start React Dev Server
-  ```
-  npm run start
-  ```
-- On your favourite browser go to http://localhost:3000/
+- **Stylelint** linter
 
-### Tests
+  `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
 
-- **Webhint** linter -`npx hint .` on the root directory.
-- **Stylelint** linter - `npx stylelint "**/*.{css,scss}"` on the root directory.
-- **ESLint** linter - `npx eslint .` on the root directory.
+- **ESLint** linter
+
+  `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
+
+### Run linters
+
+- **Webhint**
+  linter -`npx hint .` on the root of your directory of your project.
+
+- **Stylelint**
+  linter - `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
+
+- **ESLint** linter
+  - `npx eslint .` on the root of your directory of your project.
+
+### Run project
+
+- Now run the following:
+  `npm install` - on the root directory of the project to install the required packages
+  `npm start` - on the root directory of the project to start the project
 
 ## Authors
 
@@ -61,15 +53,13 @@
 - Twitter: [@joshuaivie\_](https://twitter.com/joshuaivie_)
 - LinkedIn: [joshuaivie](https://linkedin.com/in/joshuaivie)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/joshuaivie/BookStore/issues).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- To morning session team,reviewers and standup team members.
 
 ## 📝 License
 
